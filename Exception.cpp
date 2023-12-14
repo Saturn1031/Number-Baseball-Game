@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Exeption.h"
+#include "Exception.h"
 using namespace std;
 
-bool Exeption::isValidNum(int* n) {
+bool Exception::isValidNum(int* n) {
 	for (int i = 0; i < 3; i++) {
 		if (!(n[i] >= 0 && n[i] <= 9)) {
 			cout << errMsg1 << endl << endl;
@@ -18,7 +18,7 @@ bool Exeption::isValidNum(int* n) {
 	return true;
 }
 
-bool Exeption::isValidGameNum(int n) {
+bool Exception::isValidGameNum(int n) {
 	if (n != 1 && n != 2 && n != 3) {
 		cout << errMsg2 << endl << endl;
 		cin.clear();
@@ -28,7 +28,7 @@ bool Exeption::isValidGameNum(int n) {
 	return true;
 }
 
-bool Exeption::isPrimaryPcNum(int n1, int n2, int n3) {
+bool Exception::isPrimaryPcNum(int n1, int n2, int n3) {
 	if (n1 == n2 || n1 == n3 || n2 == n3) {
 		return false;
 	}

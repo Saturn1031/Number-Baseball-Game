@@ -1,11 +1,11 @@
 #include <iostream>
 #include "BaseBallGame.h"
-#include "Exeption.h"
+#include "Exception.h"
 using namespace std;
 
 int main() {
 	BaseBallGame game;
-	Exeption exeption;
+	Exception exception;
 	int gameNum;
 	while (true) {
 		do {
@@ -13,7 +13,7 @@ int main() {
 			cout << "원하는 메뉴의 숫자를 입력하세요.(게임 실행 [1]\t게임 설명 [2]\t게임 종료[3]) >> ";
 			cin >> gameNum;
 			
-		} while (!exeption.isValidGameNum(gameNum));
+		} while (!exception.isValidGameNum(gameNum));
 
 		if (gameNum == 1) {
 			game.run();
