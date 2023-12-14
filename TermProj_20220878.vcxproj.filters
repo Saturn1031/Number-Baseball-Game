@@ -27,15 +27,12 @@
     <ClCompile Include="Pc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Exeption.cpp">
+    <ClCompile Include="Exception.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseBallGame.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Exeption.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Gamer.h">
@@ -45,6 +42,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Pc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

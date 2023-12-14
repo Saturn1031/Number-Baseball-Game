@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Human.h"
-#include "Exeption.h"
+#include "Exception.h"
 using namespace std;
 
 void Human::setNum(int n1, int n2, int n3) {
@@ -14,7 +14,7 @@ int* Human::getNum() {
 }
 
 void Human::guessNum() {
-	Exeption exeption;
+	Exception exception;
 	int num[3];
 
 	do {
@@ -24,7 +24,7 @@ void Human::guessNum() {
 		cin >> num[1];
 		cout << "세 번째 숫자를 제시하세요 >> ";
 		cin >> num[2];
-	} while (!exeption.isValidNum(num));
+	} while (!exception.isValidNum(num));
 
 	setNum(num[0], num[1], num[2]);
 }

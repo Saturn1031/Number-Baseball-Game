@@ -128,14 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BaseBallGame.cpp" />
-    <ClCompile Include="Exeption.cpp" />
+    <ClCompile Include="Exception.cpp" />
     <ClCompile Include="Human.cpp" />
     <ClCompile Include="MainApp.cpp" />
     <ClCompile Include="Pc.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseBallGame.h" />
-    <ClInclude Include="Exeption.h" />
+    <ClInclude Include="Exception.h" />
     <ClInclude Include="Gamer.h" />
     <ClInclude Include="Human.h" />
     <ClInclude Include="Pc.h" />
