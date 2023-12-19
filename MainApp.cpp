@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 #include "BaseBallGame.h"
 #include "Exception.h"
 using namespace std;
@@ -23,6 +24,7 @@ int main() {
 		}
 		else if (gameNum == 3) {
 			cout << "게임을 종료합니다." << endl;
+			system("pause");
 			return 0;
 		}
 	}
